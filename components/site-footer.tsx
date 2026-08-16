@@ -76,7 +76,7 @@ export function SiteFooter() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-border py-8 font-sans text-[11px] uppercase tracking-[0.2em] text-muted-foreground md:flex-row">
           <span>&copy; {new Date().getFullYear()} TattooBySoul </span>
-          <span>Created by 🤍 <Link href={"https://ghasemizade.com"}>@realxein</Link></span>
+          <span>Created by <Link href={"https://ghasemizade.com"}>@realxein</Link></span>
           <span>Art etched into soul</span>
         </div>
       </div>

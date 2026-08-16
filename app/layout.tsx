@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: 'TattooBySoul — Art Etched Into Soul',
   description:
     'TattooBySoul (@tattoobysoul) — luxury contemporary tattoo artist specializing in blackwork, fine line, realism, geometric and ornamental custom ink. Book a private studio session.',
-  generator: 'v0.app',
+  generator: 'realxein',
   keywords: [
     'tattoo artist',
     'blackwork',
@@ -30,11 +30,28 @@ export const metadata: Metadata = {
     'contemporary tattoo',
     'TattooBySoul',
   ],
+
   openGraph: {
     title: 'TattooBySoul — Art Etched Into Soul',
     description:
       'Luxury contemporary tattoo artist. Blackwork, fine line, realism, geometric, ornamental & custom ink.',
     type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'TattooBySoul — Art Etched Into Soul',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TattooBySoul — Art Etched Into Soul',
+    description:
+      'Luxury contemporary tattoo artist. Blackwork, fine line, realism, geometric, ornamental & custom ink.',
+    images: ['/og-image.jpg'],
   },
 }
 

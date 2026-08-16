@@ -26,7 +26,7 @@ export function AboutSection() {
               src="/about-section.jpg"
               alt="Portrait of the tattoo artist at work"
               fill
-              className="object-cover grayscale hover:grayscale-0 transition brightness-75"
+              className="object-cover grayscale brightness-75"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
           </div>
